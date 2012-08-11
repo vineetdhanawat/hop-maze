@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <ImageView android:src="@drawable/logo" android:layout_height="100px" android:paddingTop="30px" android:layout_gravity="center" android:id="@+id/logoimg" android:layout_width="100px"></ImageView>
+   	<TextView
+   		android:text="Hop Maze" 		
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+   		android:textSize="20px"
+   		android:padding="20px"
+   		android:gravity="center_vertical|center_horizontal"   		
+   	/>	 
+	<Button
+		android:id="@+id/start_button"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/start_label" />
+	<Button
+		android:id="@+id/about_button"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/about_label" />
+	<Button
+		android:id="@+id/exit_button"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/exit_label" />	
+</LinearLayout>

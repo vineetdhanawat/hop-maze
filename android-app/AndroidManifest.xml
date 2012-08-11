@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.rausto.hopmaze"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="7" />
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name" android:debuggable="true">
+        <activity android:name=".Hopmaze"
+                  android:label="@string/app_name"
+                  android:screenOrientation="portrait"
+                  android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".About"
+			android:label="@string/about_title"
+			android:theme="@android:style/Theme.Dialog"
+			android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation">
+		</activity>
+		 <activity android:name=".GameOver"
+			android:label="@string/gameover_title"
+			android:theme="@android:style/Theme.Dialog"
+			android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation">
+		</activity>
+		<activity android:name=".Physics"
+		android:screenOrientation="portrait"
+		android:configChanges="keyboardHidden|orientation">
+		</activity>
+    </application>
+</manifest>
