@@ -1,5 +1,4 @@
 # HopMaze
-=======
 Import the android-app  project in eclipse. You are good to go!
 
 Proof of Concept only
@@ -15,6 +14,7 @@ The game is based on real life maze concept. Gameplay requires user to hop aroun
 - **Starting**: Initial direction where you start the game is always recorded, rest of directions are relative.
 - **Move**: Jump a step ahead, direction in the device will be simulated to the pointing arrow in game.
 - **Turn**: Just move 90 degrees clockwise or anticlockwise to rotate the direction.
+
 You cannot jump back. You need to turn 180 degrees and jump again.
 Keep jumping and moving until you reach the end of maze. You typically start from bottom right corner of maze and you need to reach top-left to win the game.
 
